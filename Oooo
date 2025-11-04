@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earnify - Watch & Earn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💸 Earnify - Watch & Earn</h1>
+    <p>رَبِّ زِدْنِي عِلْمًا — اے میرے رب! میرے علم میں اضافہ فرما</p>
+  </header>
+
+  <main>
+    <section class="video-section">
+      <h2>🎥 ویڈیو دیکھیں اور پوائنٹس کمائیں</h2>
+      <video id="earnVideo" width="320" controls>
+        <source src="your-video.mp4" type="video/mp4">
+        آپ کا براؤزر ویڈیو نہیں چلا سکتا۔
+      </video>
+      <button id="claimBtn">واچ مکمل کریں</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="dashboard">
+      <h3>آپ کے پوائنٹس: <span id="points">0</span></h3>
+    </section>
+  </main>
+
+  <footer>
+    <p>Owner سے رابطہ کریں:</p>
+    <a href="https://wa.me/923xxxxxxxxx" target="_blank">WhatsApp پر بات کریں</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
